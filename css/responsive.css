@@ -1,0 +1,135 @@
+/* Mobile */
+@media only screen and (max-width: 400px) {
+  h3 {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 0.9rem;
+  }
+
+  p {
+    font-size: 0.65rem;
+  }
+
+  .container {
+    /* background-color: aquamarine; */
+    width: 75%;
+    margin: 0;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  header {
+    width: 80%;
+    height: 100px;
+  }
+
+  header img {
+    width: 100%;
+  }
+
+  .main {
+    width: 90%;
+    margin: 10px auto;
+    padding: 0 5px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .main-image {
+    width: 50%;
+  }
+
+  .main-p-container {
+    width: 100%;
+    height: 270px;
+    /* background-color: pink; */
+    padding: 0 10px;
+    margin-top: -40px;
+  }
+
+  .main-p-container h3 {
+    /*background-color: yellow;*/
+  }
+
+  .main-p-container p {
+    /* background-color: orange; */
+  }
+
+  .sign-up-container {
+    width: 90%;
+    /* background-color: azure; */
+    margin: 15px 5px;
+    padding-top: 5px;
+  }
+
+  .sign-up-inner-container {
+    padding-top: 10px;
+    /* background-color: beige; */
+  }
+
+  .sign-up-form {
+    display: flex;
+    flex-direction: column;
+    /* background-color: yellow; */
+  }
+
+  input {
+    width: 100%;
+    height: 25px;
+    border: 1px solid black;
+  }
+
+  button {
+    margin: 3px auto;
+    width: 150px;
+    height: 30px;
+    font-size: 1rem;
+    border: 1px solid black;
+  }
+
+  .sign-me-up {
+    display: none;
+  }
+
+  .course-map,
+  .why-free {
+    margin-top: 40px;
+  }
+
+  .course-map h3,
+  .why-free h3 {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .course-map {
+    width: 80%;
+  }
+
+  .why-free {
+    width: 80%;
+  }
+
+  .why-free-p {
+    padding: 15px 15px;
+    margin: 15px auto;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .container {
+    background-color: pink;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 961px) {
+}
