@@ -1,7 +1,7 @@
 /* Mobile */
 @media only screen and (max-width: 767px) {
   h3 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     text-align: center;
   }
 
@@ -10,13 +10,13 @@
   }
 
   p {
-    font-size: 0.65rem;
+    font-size: 0.85rem;
   }
 
   .container {
     /* background-color: aquamarine; */
-    width: 75%;
-    margin: 0;
+    width: 95%;
+    margin: 0 auto;
     padding: 30px 0;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@
   }
 
   header {
-    width: 80%;
+    width: 70%;
     height: 100px;
   }
 
@@ -34,24 +34,25 @@
 
   .main {
     width: 90%;
-    margin: 10px auto;
-    padding: 0 5px;
+    height: 550px;
+    margin: 5px auto;
+    padding: 10px 5px;
     /* background-color: antiquewhite; */
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
   }
 
   .main-image {
-    width: 50%;
+    width: 45%;
   }
 
   .main-p-container {
     width: 100%;
-    height: 270px;
     /* background-color: pink; */
     padding: 0 10px;
-    margin-top: -40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
 
   .main-p-container h3 {
