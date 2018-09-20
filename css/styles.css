@@ -145,9 +145,8 @@ span {
 
 .why-free-p {
   padding: 30px 40px;
-  background-color: rgb(241, 240, 240);
   border-radius: 10px;
-  -webkit-box-shadow: 0px 0px 69px 0px rgba(0, 0, 0, 0.42);
-  -moz-box-shadow: 0px 0px 69px 0px rgba(0, 0, 0, 0.42);
-  box-shadow: 0px 0px 69px 0px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: 0px 0px 47px -9px rgba(255, 162, 0, 1);
+  -moz-box-shadow: 0px 0px 47px -9px rgba(255, 162, 0, 1);
+  box-shadow: 0px 0px 47px -9px rgba(255, 162, 0, 1);
 }
