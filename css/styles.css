@@ -64,11 +64,12 @@ p {
 
 .sign-up-container {
   width: 700px;
-  height: 180px;
+  height: 190px;
   margin-top: 70px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  /* background-color: #fdc830; */
 }
 
 h4 {
@@ -84,13 +85,17 @@ h4 {
 /* Texts labels */
 .sign-up-form {
   display: flex;
-  justify-content: space-between;
+}
+
+.type {
+  width: 90%;
+  /* background-color: aquamarine; */
 }
 
 input {
   border: 2px solid black;
   height: 35px;
-  width: 340px;
+  width: 98%;
   margin-top: 5px;
   background-color: rgba(250, 204, 106, 0.315);
 }
@@ -111,9 +116,11 @@ button {
   border: 2px solid black;
   text-align: center;
   height: 40px;
+  width: 400px;
   border-radius: 20px;
   font-weight: 600;
   font-size: 20px;
+  margin: 0 auto;
 }
 
 .sign-me-up {
