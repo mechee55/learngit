@@ -151,9 +151,19 @@ span {
 }
 
 .why-free-p {
+  width: 80%;
+  margin: 0 auto;
   padding: 30px 40px;
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 47px -9px rgba(255, 162, 0, 1);
   -moz-box-shadow: 0px 0px 47px -9px rgba(255, 162, 0, 1);
   box-shadow: 0px 0px 47px -9px rgba(255, 162, 0, 1);
+}
+
+.bicycles {
+  width: 500px;
+  margin-right: -600px;
+  margin-top: -140px;
+  z-index: -100;
+  background-color: aliceblue;
 }
